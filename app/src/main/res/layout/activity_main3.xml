@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D500F9">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : "
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/nama"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:layout_marginBottom="10dp"
+            android:text="NIM    : "
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/tv_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_below="@+id/nama"
+            android:layout_toRightOf="@id/nim"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai   : "
+            android:textSize="20sp"
+            android:layout_below="@id/nim"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/nilai"
+            android:layout_below="@id/tv_nim"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:text="Home"
+        android:onClick="Home"
+        android:textSize="15dp">
+
+    </Button>
+</LinearLayout>

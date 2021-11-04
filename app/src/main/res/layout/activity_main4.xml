@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@android:color/holo_green_dark">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10pt">
+
+                    <ImageView
+                        android:layout_width="50pt"
+                        android:layout_height="50pt"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wawan" />
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:id="@+id/identity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muhammad Setiawan"
+                        android:textColor="#F9F9FB"
+                        android:textSize="10pt" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="191401108"
+                        android:textColor="#F4F1F1"
+                        android:textSize="8pt" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingTop="20dp"
+                android:text="1. Taman Wisata Gunung Leuser"
+                android:textAlignment="center"
+                android:textColor="#F4F1F1"
+                android:textSize="9pt" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140pt"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10pt"
+                    android:layout_marginVertical="10pt"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wisata1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="350dp"
+                    android:paddingTop="20dp"
+                    android:text="Taman Nasional Gunung Leuser berada di dua provinsi berbeda, yaitu Aceh dan Sumatera Utara. Hal tersebut tak mengagetkan, mengingat luas area taman wisata ini mencapai 1.094.692 hektar. "
+                    android:textAlignment="center"
+                    android:textColor="#F4F1F1"
+                    android:textSize="9pt" />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingTop="20dp"
+                android:text="2. Danau Toba"
+                android:textAlignment="center"
+                android:textColor="#F4F1F1"
+                android:textSize="9pt" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140pt"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10pt"
+                    android:layout_marginVertical="10pt"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wisata2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Sebagai danau terbesar di Indonesia dan Asia Tenggara, Danau Toba menjadi salah satu objek wisata yang tak boleh kamu lewatkan di Sumatera Utara. Ada banyak hal yang bisa kamu lakukan di sini, mulai dari melihat situs sejarah, mengunjungi rumah adat Batak, hingga mengelilingi Desa Tuktuk Siadong-adong. "
+                    android:textColor="#F4F1F1"
+                    android:layout_marginTop="350dp"
+                    android:textSize="9pt"
+                    android:paddingTop="20dp"
+                    android:textAlignment="center"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingTop="20dp"
+                android:text="3. Pulau Samosir"
+                android:textAlignment="center"
+                android:textColor="#F4F1F1"
+                android:textSize="9pt" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140pt"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10pt"
+                    android:layout_marginVertical="10pt"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wisata3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pulau Samosir merupakan salah satu pulau yang paling populer di Sumatera Utara. Lokasinya yang berada tepat di tengah Danau Toba menjadi daya tarik tersendiri bagi wisatawan. Ada banyak aktivitas seru yang bisa kamu lakukan di pulau vulkanik ini, mulai dari bertualang di Goa Marlakkop, menyaksikan pertunjukan tari Sigale-gale, berkeliling Museum Huta Bolon Simanindo, hingga menikmati keunikan Batu Parsidangan."
+                    android:textColor="#F4F1F1"
+                    android:layout_marginTop="350dp"
+                    android:textSize="9pt"
+                    android:paddingTop="20dp"
+                    android:textAlignment="center"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingTop="20dp"
+                android:text="4. Masjid Raya Medan"
+                android:textAlignment="center"
+                android:textColor="#F4F1F1"
+                android:textSize="9pt" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140pt"
+                android:scaleType="centerCrop"
+                android:layout_marginHorizontal="10pt"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10pt"
+                android:src="@drawable/wisata4"/>
+
+            <!--asd-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:paddingTop="10dp"
+                android:text="Bagi yang tertarik dengan wisata religi di Sumatera Utara, Masjid Raya Medan tentu tak boleh kamu lewatkan. Masjid terbesar yang dibangun oleh Sultan Ma’moen Al Rasyid Perkasa Alam ini memiliki luas bangunan sekitar 5.000 meter persegi. Masjid ini menjadi tempat ibadah paling megah dengan desain bangunan berbentuk persegi delapan yang dilengkapi empat serambi utama. Ada pula pilar berdiameter 0,6 meter yang menyokong kubah utama masjid."
+                android:textAlignment="center"
+                android:textColor="#F4F1F1"
+                android:textSize="9pt" />
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:text="Home"
+                android:onClick="Home"
+                android:textSize="15dp">
+
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
