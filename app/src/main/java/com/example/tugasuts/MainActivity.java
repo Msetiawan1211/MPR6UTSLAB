@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button tombol;
+    Button tombol,klik;
     Intent pindah;
 
     @Override
@@ -19,16 +19,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tombol = (Button)findViewById(R.id.ke_layout_2);
-        tombol = (Button)findViewById(R.id.ke_layout_3);
         tombol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 pindah = new Intent(MainActivity.this,MainActivity2.class);
                 startActivity(pindah);
+                finish();
+            }
+          });
+        klik = (Button)findViewById(R.id.ke_layout_3);
+        klik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 pindah = new Intent(MainActivity.this,MainActivity4.class);
                 startActivity(pindah);
                 finish();
             }
-          });
+        });
         }
     }
